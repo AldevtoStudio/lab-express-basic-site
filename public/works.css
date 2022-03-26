@@ -1,0 +1,13 @@
+img {
+  width: 300px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #4d2cac;
+}
