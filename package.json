@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/AldevtoStudio/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "handlebars-helpers": "^0.10.0",
+    "hbs": "^4.2.0"
   }
 }

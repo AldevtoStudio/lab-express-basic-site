@@ -1,0 +1,17 @@
+<div class='container col-xxl-8 px-4 py-5'>
+  <h1 class='display-5 fw-bold lh-1 mb-3'>Gallery.</h1>
+
+  <!--#region Gallery section-->
+  <div class='container'>
+    <div class='row text-center text-lg-start'>
+      {{#each images}}
+        <div class='col-lg-3 col-md-4 col-6'>
+          <a href='' class='d-block mb-4 h-100'>
+            <img class='img-fluid img-thumbnail' src={{src}} alt={{name}} loading='lazy' />
+          </a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+  <!--#endregion-->
+</div>
